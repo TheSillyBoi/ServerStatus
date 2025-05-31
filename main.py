@@ -20,10 +20,10 @@ async def on_message(message):
     if message.content.startswith('!Status'):
         print('Status command received')
         #await message.channel.send('Hello!')
-        if count == 0:
-            await message.channel.send('Server is Online')
-        else:
+        if 0 == count:
             await message.channel.send('Server is Offline')
+        else:
+            await message.channel.send('Server is Online')
 
 print('Starting the bot...')
 
