@@ -6,8 +6,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
-processes = list(p.name() for p in psutil.process_iter())# This is where you put the name of the server file/process
-count = processes.count("minecraft_server")
+processes = list(p.name() for p in psutil.process_iter())
+count = processes.count("minecraft_server")# This is where you put the name of the server process
 @client.event
 async def on_ready():
     print(f'We have logged in as {client.user}')
