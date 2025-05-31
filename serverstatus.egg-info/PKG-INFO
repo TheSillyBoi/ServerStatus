@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: serverstatus
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+#Installation
+    set up a venv, preferably using uv(that's just cause I love uv), and install psutil and discord as libraries(should theoretically already be done)
+    go to discord.com/developers/applications and make a bot
+    add your bot token to line 30
+    run the program(python main.py)

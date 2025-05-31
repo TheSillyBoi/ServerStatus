@@ -1,0 +1,8 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+serverstatus.egg-info/PKG-INFO
+serverstatus.egg-info/SOURCES.txt
+serverstatus.egg-info/dependency_links.txt
+serverstatus.egg-info/top_level.txt
