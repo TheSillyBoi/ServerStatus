@@ -21,9 +21,9 @@ async def on_message(message):
         print('Status command received')
         #await message.channel.send('Hello!')
         if count == 0:
-            await message.channel.send('server is not running')
+            await message.channel.send('Server is Online')
         else:
-            await message.channel.send('server is running')
+            await message.channel.send('Server is Offline')
 
 print('Starting the bot...')
 
